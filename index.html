@@ -4,7 +4,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Nunito&family=Poppins:wght@700&display=swap" rel="stylesheet">
     <title>Cennik Śluby</title>
 </head>
 <body>
@@ -19,13 +31,22 @@
                 </div>
                 <div class="header-list">
                     <ul>
-                        <li>Home</li>
-                        <li>O nas</li>
-                        <li>Portfolio</li>
-                        <li>Cennik</li>
-                        <li>Wesele z klasą</li>
-                        <li>Kontakt</li>
-                        <li class="book-date">Zapytaj o termin</li>
+                        <li class="home">Home</li> 
+                        <li class="list red-arrow"><img src="/src/photos/red-arrow-down.png" alt="strzałka w dół"></li>
+                        <li class="list">O nas</li>
+                        <li class="list">Portfolio</li>
+                        <li class="list">Cennik</li>
+                        <li class="list">Wesele z klasą</li>
+                        <li class="list">Kontakt</li>
+                        <li class="list book-date">Zapytaj o termin</li>
+                    </ul>
+                    <div class="new">new</div>
+                </div>
+                <div class="drop-down-menu">
+                    <ul>
+                        <li>Main</li>
+                        <li>Web Development</li>
+                        <li>Managment</li>
                     </ul>
                 </div>
             </div>
@@ -37,12 +58,12 @@
                         które potrafi cieszyć oko przez bardzo długie lata. Zdajemy sobie sprawę z powagi zlecenia i nie bagatelizujemy go. Do każdego klienta podchodzimy indywidualnie, a więc ze świeżym pomysłem i podejściem. Dbamy również o to, aby każdy klient był jak najbardziej zadowolony ze zleconego nam zadania.</p>
                     <div class="buttons">
                         <button>Sprawdź ofertę</button>
-                        <button>Portfolio</button>
+                        <button class="portfolio-btn">Portfolio</button>
                     </div>
                 </div>
                 <div class="images">
                     <img src="src/photos/grey rectangle.png"class="grey-rectangle">
-                    <img src="src/photos/waves.png"class="small-wind">
+                    <img src="src/photos/waves.png"class="small-waves">
                     <img src="src/photos/earth.png"class="small-earth">
                     <img src="src/photos/clouds.png"class="small-clouds">
                     <img src="src/photos/truncated-cosmos.png"class="truncated-cosmos">
@@ -61,31 +82,40 @@
                     <p>Jesteśmy dwójką młodych zapalonych ludzi, którzy codziennie
                         szukają nowych wrażeń i wyzwań czysto kreatywnych. Mamy ogromnie kwalifikacje, doświadczenie i zaangażowane podejście do każdego ze zleceń, które udaje nam się realizować. Przede wszystkim jesteśmy pasjonatami tego co robimy. Stanowimy młody, zgrany zespół, który dorastał wraz z rozwojem świata filmowego, biorąc z niego to co tylko najlepsze. Każdy produkt traktujemy z należytym szacunkiem. Do każdego podchodzimy oryginalnie, nie bagatelizując go. Nasze podejście oznacza, że każda produkcja będzie miała coś czego nie miała poprzednia. Każdy klient jest dla nas na wagę złota, a więc w naszych rękach, każdy poczuje się wyjątkowo.</p>
                     <div class="certificates">
-                        <img src="src/photos/certyfikat.png" alt="certyfikat">
-                        <img src="src/photos/certyfikat.png" alt="certyfikat">
-                        <img src="src/photos/certyfikat.png" alt="certyfikat">
+                        <div class="certificate">
+                            <img src="src/photos/certyfikat.png" alt="certyfikat">
+                            <img class="middle-certificate" src="src/photos/certyfikat.png" alt="certyfikat">
+                            <img src="src/photos/certyfikat.png" alt="certyfikat">
+                        </div>
                         <div class="opinion-button">
                             <button>Opinie naszych klientów</button>
                         </div>
                     </div>
                 </div>
+                <div class="blue-certificate">
+                    <img src="/src/photos/blue-certificate.png" alt="niebieski certyfikat">
+                </div>
             </div>
 
             <div class="bottom">
-                <h2>Czy na pewno pownniście wybrać właśnie nas?</h2>
                 <div class="content">
                     <div class="slider">
                         <!--SLIDER DO UZUPEŁNIENIA-->
-                        <img src="src/photos/arrow-left.png" alt="arrow-left">
-                        <button>Zobacz więcej</button>
-                        <img src="src/photos/arrow-right.png" alt="arrow-right">
+                        <div class="silder-img">
+                            <img class="photo" src="/src/photos/silder-photo.png" alt="">
+                        </div>
+                        <div class="arrows">
+                            <img class="arrow" src="src/photos/arrow-left.png" alt="arrow-left">
+                            <button>Zobacz więcej</button>
+                            <img class="arrow" src="src/photos/arrow-right.png" alt="arrow-right">
+                        </div>
                     </div>
                     <div class="text">
                         <h4>Wasze wymagania na pierwszym miejscu!</h4>
                         <p>Zanim przejdziemy do szczegółów, zapraszam serdecznie do zapoznania się z naszym portfolio. Chcemy mieć pewność,że nasze usługi idealnie wpiszą się w motyw tego wielkiego wydarzenia, a jakość naszych usług zagwarantuje wyborną pamiątkę na całe życie.</p>
                         <p>Mieliśmy okazję, jako studio pracować przy ogromnych produkcjach, kanałach YouTube oraz projektach 🥇 Od 3 lat jednak działamy dodatkowo na powierchnii, jaką są pamiątki okolicznościowe, co daje Państwu jeszcze większą gwarancję unikalności pamiątki. 🎬</p>
-                        <p><span>kamerzysta na wesele · film ślubny · teledysk ślubny · kamerzysta na ślub ·
-                            weselezklasą · reportaż ślubny ·  filmowanie ślubów i wesel · wesele · ślub</span></p>
+                        <span>kamerzysta na wesele · film ślubny · teledysk ślubny · kamerzysta na ślub ·
+                            weselezklasą · reportaż ślubny ·  filmowanie ślubów i wesel · wesele · ślub</span>
                     </div>
                 </div>
                 <div class="blue-shape"></div>
@@ -100,83 +130,113 @@
             <div class="header">
                 <h2>oferta ślubna</h2>
                 <div class="grey-line"></div>
-                <div class="2022">2022</div>
+                <div class="year">2022</div>
             </div>
 
             <div class="table">
                 
                 <div class="column1">
-                    <div class="cell">Pakiet filmowy</div>
+                    <div class="cell">
+                        <p class="font-30 
+                        package">Pakiet <span>filmowy</span></p>
+                    </div>
                     <div class="cell">Dwóch operatorówna planie</div>
-                    <div class="cell">Minisesja plenerowaw dniu ślubu</div>
-                    <div class="cell">Drewniany pendrive z plikami + opakowanie</div>
+                    <div class="cell">Minisesja plenerowa w dniu ślubu</div>
+                    <div class="cell">Perspektywa z lotu ptaka, użycie drona z śk. UAVO</div>
                     <div class="cell">Teledysk z najlepszych momentów relacji ślubnej</div>
                     <div class="cell">Długi film z całego wydarzenia ślubnego</div>
-                    <div class="cell">Perspektywa z lotu ptaka, użycie drona z śk. UAVO</div>
+                    <div class="cell">Drewniany pendrive z plikami + opakowanie</div>
                     <div class="cell">Dyskretna technika filmowania Reccly</div>
-                    <div class="cell">Ceny brutto pakietu:</div>
+                    <div class="cell">
+                        <p class="font-25">Ceny <span>brutto</span> pakietu:</p>
+                    </div>
                 </div>
-
+                
                 <div class="column2">
-                    <div class="cell">Pakiet Ocean</div>
+                    <div class="cell">
+                        <p class="font-25 
+                        package">Pakiet <span></br>Ocean</span></p>
+                    </div>
                     <div class="cell"><img src="/src/photos/x.png" alt="krzyżyk"></div>
                     <div class="cell"><img src="/src/photos/x.png" alt="krzyżyk"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
-                    <div class="cell">do 3 min</div>
-                    <div class="cell">do 30 min</div>
+                    <div class="cell">
+                        <p class="font-28">do <span>3 min</span></p>
+                    </div>
+                    <div class="or">lub</div>
+                    <div class="cell">
+                        <p class="font-28">do <span>30 min</span></p>
+                    </div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
-                    <div class="cell price">
-                        <div class="amount">0000</div>
-                        <div class="currency">pln</div>
+                    <div class="cell price font-35">
+                        <div class="amount"><span>0000</span></div>
+                        <div class="currency"><span>pln</span></div>
                     </div>
                 </div>
 
                 <div class="column3">
-                    <div class="cell">Pakiet Ziemia</div>
+                    <div class="cell high-column">
+                        <p class="font-30 
+                        package">Pakiet <span></br>Ziemia</span></p>
+                    </div>
                     <div class="cell"><img src="/src/photos/x.png" alt="krzyżyk"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
-                    <div class="cell">do 3 min</div>
-                    <div class="cell">do 30 min</div>
+                    <div class="cell">
+                        <p class="font-30">do <span>3 min</span></p>
+                    </div>
+                    <div class="cell">
+                        <p class="font-30">do <span>30 min</span></p>
+                    </div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
-                    <div class="cell price">
+                    <div class="cell price high-column">
                         <div class="crossed-price">0000</div>
-                        <div class="amount">0000</div>
-                        <div class="currency">pln</div>
-                        <!--TOP WYBÓR BRAKUJE-->
+                        <div class="amount font-40"><span>0000</span></div>
+                        <div class="currency font-40"><span>pln</span></div>
+                        <div class="bestseller">bestseller</div>
                     </div>
                 </div>
 
                 <div class="column4">
-                    <div class="cell">Pakiet Niebo</div>
+                    <div class="cell">
+                        <p class="font-25 
+                        package">Pakiet <span></br>Niebo</span></p>
+                    </div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
-                    <div class="cell">do 5 min</div>
-                    <div class="cell">do 45 min</div>
+                    <div class="cell">
+                        <p class="font-26">do <span>3 min</span></p>
+                    </div>
+                    <div class="cell">
+                        <p class="font-26">do <span>45 min</span></p>
+                    </div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell price">
                         <div class="crossed-price">0000</div>
-                        <div class="amount">0000</div>
-                        <div class="currency">pln</div>
+                        <div class="amount font-35"><span>0000</span></div>
+                        <div class="currency font-35"><span>pln</span></div>
                     </div>
                 </div>
 
                 <div class="column5">
-                    <div class="cell">Pakiet Kosmos</div>
+                    <div class="cell">
+                        <p class="font-25 
+                        package">Pakiet <span></br>Kosmos</span></p>
+                    </div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
-                    <div class="cell">do 6 min</div>
-                    <div class="cell">do 120 min</div>
+                    <div class="cell"><span class="red">do 6 min</span></div>
+                    <div class="cell"><span class="red">do 120 min</span></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell"><img src="/src/photos/ptaszek.png" alt="ptaszek"></div>
                     <div class="cell price">
-                        <div class="amount">0000</div>
-                        <div class="currency">pln</div>
+                        <div class="amount"><span class="red">0000</span></div>
+                        <div class="currency"><span class="red currency">pln</span></div>
                     </div>
                 </div>
             </div>
@@ -189,21 +249,21 @@
                 <h2>nie znaleźliście idealnej oferty?</h2>
                 <button class="personalize-offert">Spersonalizuj ofertę</button>
             </div>
-            <div class="blue-shape"></div>
 
         </div>
 
         <div class="page-four">
+            <div class="blue-shape"></div>
             
             <div class="first-package">
                 <div class="waves">
                     <div class="white-shape"></div>
-                    <img src="/src/photos/waves.png" alt="waves">
+                    <img src="/src/photos/big waves.png" alt="waves">
                 </div>
                 <div class="text">
                     <div class="one">1</div>
                     <h4>Pakiet <span>pierwszy</span></h4>
-                    <span>ocean</span>
+                    <span class="red">ocean</span>
                     <p>Idealny pakiet dla mało wymagających. Jakość świadczonej usługi nie odbiega od pozostałych pakietów!</p>
                     <ul>
                         <li>Jeden operator na planie,</li>
@@ -221,9 +281,10 @@
 
             <div class="second-package">
                 <div class="text">
-                    <div class="one">2</div>
+                    <div class="two">2</div>
+                    <p class="bestseller">bestseller</p>
                     <h4>Pakiet <span>drugi</span></h4>
-                    <span>ziemia</span>
+                    <span class="red">ziemia</span>
                     <p>Najczęściej wybierany przez pary młode,
                         teledysk i długi film sprawi, że w każdym miejscu wrócisz do tych wspomnień!</p>
                     <ul>
@@ -237,26 +298,27 @@
                     </ul>
                     <div class="cost">
                         <button>+ wybieram</button>
+                        <div class="crossed-price">xxx</div>
                         <div class="price">0000 <span>pln</span></div>
                     </div>
                 </div>
                 <div class="earth">
                     <div class="white-shape"></div>
-                    <img src="/src/photos/earth.png" alt="earth">
+                    <img src="/src/photos/big earth.png" alt="earth">
                 </div>
             </div>
 
             <div class="third-package">
                 <div class="clouds">
                     <div class="blue-shape"></div>
-                    <img src="/src/photos/clouds.png" alt="clouds">
+                    <img src="/src/photos/big clouds.png" alt="clouds">
                 </div>
                 <div class="text">
-                    <div class="one">3</div>
+                    <div class="three">3</div>
                     <h4>Pakiet <span>trzeci</span></h4>
-                    <span>niebo</span>
+                    <span class="red">niebo</span>
                     <p>Drugi operator, sprawi że Twoja historia zostanie uchwycona z każdej perspektywy!
-                        To drugi najczęściej wybierany pakiet.</p>
+                    </br>To drugi najczęściej wybierany pakiet.</p>
                     <ul>
                         <li>Dwóch operatorów na planie filmowym,</li>
                         <li>Drewniany pendrive + niespodzianka,</li>
@@ -268,6 +330,7 @@
                     </ul>
                     <div class="cost">
                         <button>+ wybieram</button>
+                        <div class="crossed-price">xxx</div>
                         <div class="price">0000 <span>pln</span></div>
                     </div>
                 </div>
@@ -275,9 +338,9 @@
 
             <div class="fourth-package">
                 <div class="text">
-                    <div class="one">4</div>
+                    <div class="four">4</div>
                     <h4>Pakiet <span>czwarty</span></h4>
-                    <span>kosmos</span>
+                    <span class="red">kosmos</span>
                     <p>Specyfikacja dla najbardziej wymagających, która sprawi, że prawie wszystkie momenty zostaną uwiecznione na filmie!</p>
                     <ul>
                         <li>Dwóch operatorów na planie filmowym,</li>
@@ -299,35 +362,37 @@
                 </div>
             </div>
 
-            <div class="text">
-                <p>Każdy z pakietów mogą Państwo dowolnie modyfikować, bez względu na jego zawartość. Każdego klienta traktujemy indywidualnie.Ojjjjj, lubimy dorzucać rabaty <span>LAST MINUTE</span> 🤗</p>
+            <div class="footer-text">
+                <p>Każdy z pakietów mogą Państwo dowolnie modyfikować, bez względu na jego</br> zawartość. Każdego klienta traktujemy indywidualnie.</br>Ojjjjj, lubimy dorzucać rabaty <span>LAST MINUTE</span> 🤗</p>
             </div>
         </div>
 
-        <div class="page-fifthh">
+        <div class="page-fifth">
             
-            <div class="header">
-                <h5>Dodatkowe usługi</h5>
-                <p>Brakuje Państwu czegoś w zaprezentowanych pakietach? Mamy opcję dokupienia wybranych życzeń, za dodatkową opłatą. Możemy również poruszyć temat rzeczy nie poruszanych w cenniku, wtedy wycena jest indywidualna i nie podlega cennikowi.</p>
-            </div>
-
-            <div class="list">
-                <ul>
-                    <li>Dodatkowy operator na planie filmowym + kamera <span>000 pln</span></li>
-                    <li>Rejestracja i produkcja w rozdzielczości 4K <span>000 pln</span></li>
-                    <li>Sesja plenerowa w wybranym przez Państwa dniu <span>000 pln</span></li>
-                    <li>Podziękowania dla rodziców w formie klipu <span>000 pln</span></li>
-                    <li>Dodatkowa kamera podczas ceremonii ślubnej <span>000 pln</span></li>
-                    <li>Dodatkowy drewniany pendrive <span>000 pln</span></li>
-                    <li>Dodatkowa minuta teledysku <span>000 pln</span></li>
-                    <li>Dodatkowe 15 minut do długiej relacji ślubnej <span>000 pln</span></li>
-                    <li>Montaż ELIXIR  w 15 dni roboczych! <span>000 pln</span></li>
-                </ul>
-            </div>
-
-            <div class="footer">
-                <p>Każdy pakiet obejmuje: Przygotowania ślubne, ceremonie ślubną, życzenia ślubne, drogę i wejście do 
-                domu weselnego, pierwszy taniec, zabawy taneczne, krojenie pierwszego kawałka tortu, podziękowania, oczepiny.</p>
+            <div class="additional-services">
+                <div class="header">
+                    <h5>Dodatkowe usługi</h5>
+                    <p>Brakuje Państwu czegoś w zaprezentowanych pakietach? Mamy opcję dokupienia wybranych życzeń, za dodatkową opłatą. Możemy również poruszyć temat rzeczy nie poruszanych w cenniku, wtedy wycena jest indywidualna i nie podlega cennikowi.</p>
+                </div>
+    
+                <div class="list">
+                    <ul>
+                        <li>Dodatkowy operator na planie filmowym + kamera <span>000 pln</span></li>
+                        <li>Rejestracja i produkcja w rozdzielczości 4K <span>000 pln</span></li>
+                        <li>Sesja plenerowa w wybranym przez Państwa dniu <span>000 pln</span></li>
+                        <li>Podziękowania dla rodziców w formie klipu <span>000 pln</span></li>
+                        <li>Dodatkowa kamera podczas ceremonii ślubnej <span>000 pln</span></li>
+                        <li>Dodatkowy drewniany pendrive <span class="span">000 pln</span></li>
+                        <li>Dodatkowa minuta teledysku <span>000 pln</span></li>
+                        <li>Dodatkowe 15 minut do długiej relacji ślubnej <span>000 pln</span></li>
+                        <li>Montaż ELIXIR  w 15 dni roboczych! <span>000 pln</span></li>
+                    </ul>
+                </div>
+    
+                <div class="footer">
+                    <p>Każdy pakiet obejmuje: Przygotowania ślubne, ceremonie ślubną, życzenia ślubne, drogę i wejście do 
+                    domu weselnego, pierwszy taniec, zabawy taneczne, krojenie pierwszego kawałka tortu, podziękowania, oczepiny.</p>
+                </div>
             </div>
 
             <div class="form">
@@ -337,42 +402,64 @@
                     <button>Wesele z klasą</button>
                 </div>
                 <div class="blue-shape"></div>
-                <form action="#">
-
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Imiona">
-
-                    <label for="email"></label>
-                    <input type="email" id="email" placeholder="E-mail">
-
-                    <label for="phone-number"></label>
-                    <input type="number" id="phone-number" placeholder="Numer telefonu">
-
-                    <label for="date"></label>
-                    <input type="date" id="date" placeholder="Data ślubu">
-
-                    <label for="place"></label>
-                    <input type="text" id="place" placeholder="Miejsce ślubu">
-
-                    <label for="package"></label>
-                    <input type="text" id="package" placeholder="Wybrany pakiet">
-
-                    <label for="question"></label>
-                    <input type="text" id="question" placeholder="Zadaj pytanie">
-
-                    <input type="checkbox" id="personal-data">
-                    <label for="personal-data"><span>*</span> Administratorem danych osobowych jest firma RECC Daniel Zięcik.Dane wpisane w formularzu kontaktowym będę przetwarzane
-                    w celu udzielenia odpowiedzi na przesłane zapytanie.</label>
-
-                    <!--BRAKUJE CAPTCHA-->
-
-                </form>
-                <button class="submit-btn" type="submit">Wyślij</button>
+                <div class="contact-form">
+                    <h4>Formularz kontaktowy</h4>
+                    <form action="#">
+                        <div class="input-grid">
+                            <div class="input">
+                                <label for="name"></label>
+                                <input type="text" id="name" placeholder="Imiona">
+                            </div>
+        
+                            <div class="input">
+                                <label for="email"></label>
+                                <input type="email" id="email" placeholder="E-mail">
+                            </div>
+        
+                            <div class="input">
+                                <label for="phone-number"></label>
+                                <input type="number" id="phone-number" placeholder="Numer telefonu">
+                            </div>
+        
+                            <div class="input">
+                                <label for="date"></label>
+                                <input type="date" id="date" placeholder="Data ślubu">
+                            </div>
+        
+                            <div class="input">
+                                <label for="place"></label>
+                                <input type="text" id="place" placeholder="Miejsce ślubu">
+                            </div>
+        
+                            <div class="input">
+                                <label for="package"></label>
+                                <input type="text" id="package" placeholder="Wybrany pakiet">
+                            </div>
+                        </div>
+                        
+                        <div class="input ask-question">
+                            <label for="question"></label>
+                            <input type="text" id="question" placeholder="Zadaj pytanie">
+                        </div>
+    
+                        <div class="input personal-data">
+                            <input type="checkbox" id="personal-data">
+                            <label for="personal-data"><span>*</span> Administratorem danych osobowych jest firma RECC Daniel Zięcik.Dane wpisane w formularzu kontaktowym będę przetwarzane
+                            w celu udzielenia odpowiedzi na przesłane zapytanie.</label>
+                        </div>
+    
+                        <!--BRAKUJE CAPTCHA-->
+    
+                    </form>
+                    <button class="submit-btn" type="submit">Wyślij</button>
+                </div>
+                
             </div>
         </div>
 
         <footer>
             <div class="left-side">
+                <div class="question-mark">?</div>
                 <div class="contact-with-us">
                     <span>Skontaktuj się z nami!</span>
                     <h5>To jak? Widzimy się na
@@ -385,12 +472,12 @@
                     <p><span>telefon</span> +48 515 991 639</p>
                 </div>
                 <div class="social-media">
-                    <img src="/src/photos/facebook.png" alt="facebook">
+                    <img class="fb" src="/src/photos/facebook.png" alt="facebook">
                     <img src="/src/photos/instagram.png" alt="instagram">
                     <img src="/src/photos/youtube.png" alt="youtube">
                 </div>
                 <div class="fb-message">
-                    <button>wiadomość messenger</button>
+                    <button class="btn">wiadomość messenger</button>
                 </div>
             </div>
 
@@ -421,14 +508,14 @@
                         <li>Film mazowieckie (Warszawa)</li>
                     </ul>
                 </div>
+                <div class="rights">
+                    <p class="all-rights">@ <span>reccly.pl</span> 2022 <br>ALL RIGHTS RESERVED</p>
+                    <p class="page">www.reccly.pl</p>
+                </div>
             </div>
-
-            <div class="rights">
-                <p>@ <span>reccly.pl</span> 2022 <br>ALL RIGHTS RESERVED</p>
-                <p>www.reccly.pl</p>
-            </div>
+            
         </footer>
-
+        
     </div>
 
 <!--Script JS-->
